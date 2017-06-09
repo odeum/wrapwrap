@@ -7,4 +7,19 @@ A Ducks Pattern (Wrap Wrap) Wrapper for ReactJS
   <img alt="WrapWrap" src="./wrapwrap.jpg" />
 </a>
 
+```sh
+npm install wrapwrap
+yarn add wrapwrap
+```
+
+## Usage
+
+```javascript
+import React from 'react'
+import LetsWrap from 'wrapwrap'
+
+...
+
+<LetsWrap />
+```
 
