@@ -1,6 +1,6 @@
 {
   "name": "wrapwrap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Ducks Pattern (Wrap Wrap) Wrapper for ReactJS",
   "main": "lib/index.js",
   "author": "Christian Broberg",
