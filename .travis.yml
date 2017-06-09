@@ -1,0 +1,19 @@
+sudo: false
+language: node_js
+node_js:
+- stable
+notifications:
+  email: true
+  slack: webhouseteam:82qu1PX5R5wkYNCW5x6fVlhu
+branches:
+  only:
+  - master
+script:
+- npm run build
+deploy:
+  provider: npm
+  email: cb@webhouse.dk
+  api_key:
+    secure: rJqoubI3VODVaYpl+TKad06MMvG+7Z3kaI52OGjh5kZv25SVzhfo/clKpUKysC+Dd1Ec+xomi0TyUFlEei85tqLV51hDK0mhuVfXlfTM/7kH2Sqbbbd6qUMPC12XZ13kiNWdnY5MS9FYoHb32S/92Nc8mLCITvyPlpHT++qrLdx1HZ1NDaSwmvREszkt30SZN+qIgDUJnTSEWr9IEW2QuSuGVuuYYtTHq0bEHqFL8pVQhx9GeTN3jTgoCgu/DAiLvtI/nA0IrrcBSHEnHFbFG7NPu9fKmIC2DGbkPHGxwl6wtZgYPPvHnSWqp2FJb78xmhIUR3dBgNHYwcAfkW5ndLv8h5tP2XrERP+F2kjsrkV4Bb0N6ySIr38pS+gE4zFq3abh+BrnVAK1Hkl2G9McLA7qBCy52g1r1sEEr0eDdoB/c8qA8vL8ZxXrJ+nGwD6ei/AWeRBCPtx3lEP6je/NG0xdpI88Q/6H5r5VKZnG3RYhd/1ZKkvk8sklXNG2aM5En/0IR89fDD16S+eZCASdhUKEv9wJTetsEfmzQ1plF3fWkUmoMu+nIkZ3SDr3s8hK5HPw72Ebtlq3WXqt4qQUKHzmtFGWf4PhwLy3K7mo8nc8xuatB/nVZYvsOGdLqFGZp6Izo9mF5f3v2x1ROU1c7fcHpDaUINZ/1nKMlL+yDNA=
+  on:
+    repo: odeum/wrapwrap
