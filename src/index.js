@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text } from './components/Styles.js'
+export { Button, Header } from './components/Styles.js'
 
 const LetsWrap = () => {
   return (
