@@ -6,7 +6,7 @@ const Button = styled.button`
 	font-family: 'Source Sans Pro';
 	font-weight: 300;
 	font-style: 'normal';
-	background: ${(props) => props.disable ? '#EEEDED' : '#FF9600'};
+	background: ${(props) => props.disable ? '#EEEDED' : '#3B97D3'};
 	padding: '9px 20px 9px 15px';
 	margin-right: 0.7rem;
 	border: 1px solid black;

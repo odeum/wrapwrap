@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
-export const Text = styled.text`
-	font-size: 15px;
-	color: green;
+export const Text = styled.a`
+	font-family: 'Source Sans Pro';
+	font-size: 18px;
+	color: #3B97D3;
 `
 
-export const Header = styled.h2`
+export const Header = styled.h1`
 	font-family: 'Source Sans Pro';
-	font-weight: 300;
 	font-style: 'normal';
 `

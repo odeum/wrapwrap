@@ -1,5 +1,0 @@
-babel src --out-dir lib
-npm publish
-
-https://docs.travis-ci.com/user/deployment/npm/
-
