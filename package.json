@@ -1,15 +1,16 @@
 {
   "name": "wrapwrap",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Style wrappers (Wrap Wrap) for ReactJS",
   "main": "lib/index.js",
   "author": "Christian Broberg",
   "license": "MIT",
   "scripts": {
     "build": "babel src --out-dir lib",
-    "push": "yarn publish",
+    "push": "npm publish",
     "clean": "rm -rf lib",
-    "dist": "yarn run clean && yarn run build"
+	"dist": "yarn run clean && yarn run build",
+	"npm": "yarn run clean && yarn run build && npm publish"
   },
   "dependencies": {
     "react": "^15.6.1",
