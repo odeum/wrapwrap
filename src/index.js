@@ -1,11 +1,3 @@
-import React from 'react'
-import { Text } from './components/Styles.js'
-export { Button, Header } from './components/Styles.js'
+export { Header, Text } from './components/styles'
+export { default as Button } from './components/button' 
 
-const LetsWrap = () => {
-  return (
-    <Text>Let us make this a styled-components NPM Wrap!!! ... </Text>
-  )
-}
-
-export default LetsWrap
