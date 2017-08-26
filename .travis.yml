@@ -9,7 +9,7 @@ branches:
   only:
   - master
 script:
-- npm run build
+- yarn dist
 deploy:
   provider: npm
   email: cb@webhouse.dk
