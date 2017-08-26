@@ -1,8 +1,9 @@
 import React from 'react'
+import { Text } from './components/Styles.js'
 
 const LetsWrap = () => {
   return (
-    <div>Broberg & Tudor is absolutely rocking the React World ... </div>
+    <Text>Let us make this a styled-components NPM Wrap!!! ... </Text>
   )
 }
 

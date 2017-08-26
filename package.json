@@ -1,20 +1,23 @@
 {
   "name": "wrapwrap",
-  "version": "0.1.3",
-  "description": "A Ducks Pattern (Wrap Wrap) Wrapper for ReactJS",
+  "version": "0.1.4",
+  "description": "Style wrappers (Wrap Wrap) for ReactJS",
   "main": "lib/index.js",
   "author": "Christian Broberg",
   "license": "MIT",
   "scripts": {
     "build": "babel src --out-dir lib",
-    "push": "npm publish"
+    "push": "yarn publish",
+    "clean": "rm -rf lib",
+    "dist": "yarn run clean && yarn run build"
   },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
+    "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1"

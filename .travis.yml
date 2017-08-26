@@ -17,3 +17,7 @@ deploy:
     secure: 34jU/A5cazNfwcO5iLUdZI8qG179Eo5sF80cbVliLGl9pXHmZ0CFR2HqzO9oVlTfWPlVLQeD0kI4FbcxmKhOyguRjyzMsglY3XoMsjbiQgEVyqb8GU4Wq6GBAoyC8G3boYDd39JF+1qECPv0j+so7dBd7qqN+ydGk5OteXxWxvazY8ylVR1zWFoRULGpcLDohxlgNHqgPOclbvNc3d+V81qJKOuByvGHdmcfI1cFxulafTovG/oFY+DOiBtr2uMg+NYu8MV544AZMIse/rjeu52b3Mtp90mUpzk99MzpEdZ+Eet3SCq0vKsL2l5PyTGv0yWx5wZ3tKQhZ8+izl9h0YsZ4xbALMul68yEpXVdEZV41roNg+Wp6ICr5GD9rqmg2LlxrRnt6NfMN6jVmczQpO5KCmDhOEVH4pJ3CtcuZt5Dpqh+jljWup0m76QMJjsOzVZkZKs6u0d/ANbatQfKRvbIv386KzClYkDAbmAEXGoybHwlSyGEvz6bo8ayt0ZC578F8zB9YQLXJDP4EJDrElH/HrpOeupE7e86ooH2bxXlVYYALwOsBBcDFd5Id8fqlgG1DbpiYXpH/WeizarUVkmLnN6x6XCI5NbSD2da9x6UwUIF2SZONshWgpL/Gn6cHhkaBpHcFwY1IdRAuaVLyjSBnWeGKIYPdnaU/MyvTNE=
   on:
     repo: odeum/wrapwrap
+
+# https://docs.npmjs.com/getting-started/publishing-npm-packages
+# https://docs.travis-ci.com/user/encryption-keys/#Usage
+# https://docs.travis-ci.com/user/deployment/npm/
