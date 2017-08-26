@@ -1,6 +1,6 @@
 {
   "name": "wrapwrap",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Style wrappers (Wrap Wrap) for ReactJS",
   "main": "lib/index.js",
   "author": "Christian Broberg",
