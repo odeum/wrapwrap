@@ -1,5 +1,5 @@
 # WrapWrap
-Style wrappers (wrapwrap) for ReactJS
+Style wrappers (wrapwrap) for ReactJS components
 
 [![Build Status](https://travis-ci.org/odeum/wrapwrap.svg?branch=master)](https://travis-ci.org/odeum/wrapwrap)
 
